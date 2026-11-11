@@ -1,19 +1,27 @@
-# CampusMate — Student Productivity Dashboard
+# CampusMate – Student Productivity Dashboard
 
-CampusMate is a responsive student dashboard built with **HTML, CSS and vanilla JavaScript**. It helps students organize tasks, save quick notes and run Pomodoro-style focus sessions.
+CampusMate is a simple student productivity dashboard made using HTML, CSS and JavaScript. It helps students manage their daily tasks, write notes and focus on their studies.
 
 ## Features
 
-- Dashboard with task statistics and daily completion progress
-- Add, complete, search, filter and delete tasks
-- Task categories, priorities and due dates
-- Quick notes with create and delete actions
-- Focus timer with 25-minute focus, 5-minute short break and 15-minute long break
-- Saves tasks, notes and focus minutes in browser `localStorage`
-- Responsive layout for desktop, tablet and mobile
-- No frameworks or backend required
+- Dashboard to check daily task progress
+- Add and delete tasks
+- Mark tasks as completed
+- Search and filter tasks
+- Set task priorities and categories
+- Add and save quick notes
+- Focus timer for study sessions
+- Saves tasks and notes using browser Local Storage
+- Responsive design for different screen sizes
 
-## Project structure
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Local Storage
+
+## Project Structure
 
 ```text
 campusmate/
@@ -23,33 +31,33 @@ campusmate/
 └── README.md
 ```
 
-## Run locally
+## Live Demo
 
-1. Download or clone this repository.
-2. Open `index.html` in a browser.
-3. Start adding tasks and notes.
+[Click here to open CampusMate](https://ydhanlal04-maker.github.io/campusmate/)
 
-You can also use the VS Code **Live Server** extension.
+## How to Run Locally
 
-## Deploy with GitHub Pages
+1. Clone the repository:
 
-1. Create a public GitHub repository named `campusmate`.
-2. Upload the four project files to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/ (root)`, then save.
-6. Wait for GitHub Pages to publish the site.
+   ```bash
+   git clone https://github.com/ydhanlal04-maker/campusmate.git
+   ```
 
-## Tech stack
+2. Open the downloaded folder.
+3. Open `index.html` in your browser.
 
-- HTML5
-- CSS3 (Grid, Flexbox, responsive media queries)
-- Vanilla JavaScript (DOM, events, timers, localStorage)
+You can also run it using the Live Server extension in VS Code.
 
-## Note
+## About the Project
 
-Data is stored in the current browser using `localStorage`. It does not sync between different devices or browsers. This project is a front-end demo and does not use a server or user authentication.
+I made this project to practice HTML, CSS and JavaScript and to build something useful for students.
 
----
+The project stores data in the browser using Local Storage. Tasks and notes do not automatically sync between different devices.
 
-Made with care by Dhanlal Yadav.
+## Author
+
+**Dhanlal Yadav**
+
+GitHub: [ydhanlal04-maker](https://github.com/ydhanlal04-maker)
+
+
