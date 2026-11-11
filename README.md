@@ -60,4 +60,8 @@ The project stores data in the browser using Local Storage. Tasks and notes do n
 
 GitHub: [ydhanlal04-maker](https://github.com/ydhanlal04-maker)
 
+## Project Screenshot
+
+![CampusMate Dashboard](campusmate-dashboard.png)
+
 
